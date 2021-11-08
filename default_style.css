@@ -1,7 +1,29 @@
-html *
-{
-   font-family: Arial;
+body {
+  font-family: Arial;
+  font-size:18px;
+  margin:40px auto;
+  max-width:620px;
 }
+
+#pic {
+  float: left;
+  width:30%;
+  margin-right: 40px; /*to make some space b/w pic and text*/
+  margin-top: 5px; /*to align top of pic w/ top of text*/
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    margin:10px 10px;
+  }
+  #pic {
+	float: none;
+	width: 100%;
+	margin-right: 0px;
+	margin-top: 0px;
+  }
+}
+
 a:link {
   color: grey;
   background-color: transparent;
@@ -16,4 +38,13 @@ a:hover {
   color: black;
   background-color: transparent;
   text-decoration: none;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top:12px;
+  margin-bottom:0px;
 }
