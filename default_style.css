@@ -5,6 +5,8 @@ body {
   max-width:620px;
 }
 
+#eexclamation {height: 1em;}
+
 #pic {
   float: left;
   width:30%;
