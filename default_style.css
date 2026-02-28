@@ -1,15 +1,19 @@
 body {
-  font-family: Arial;
-  font-size:18px;
+  background-color: #2C001E;
+  font-family: "Courier", monospace;
+  font-size:28px;
+  color: limegreen;
   margin:40px auto;
-  max-width:620px;
+  max-width:660px;
 }
 
-#eexclamation {height: 1em;}
+#my_name {font-size:56px;}
+
+#youtube {height: 0.7em;}
 
 #pic {
   float: left;
-  width:30%;
+  width:32%;
   margin-right: 40px; /*to make some space b/w pic and text*/
   margin-top: 5px; /*to align top of pic w/ top of text*/
 }
@@ -19,28 +23,30 @@ body {
     margin:10px 10px;
   }
   #pic {
-	float: none;
-	width: 100%;
-	margin-right: 0px;
-	margin-top: 0px;
+  float: none;
+  width: 100%;
+  margin-right: 0px;
+  margin-top: 0px;
   }
 }
 
+
 a:link {
-  color: grey;
+  color: limegreen;
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: grey;
+  color: limegreen;
   background-color: transparent;
   text-decoration: none;
 }
 a:hover {
-  color: black;
-  background-color: transparent;
+  color: #2C001E;
+  /*font-weight: bold;*/
+  background-color: limegreen;
   text-decoration: none;
-}
+} 
 
 h1 {
   margin-bottom: 10px;
